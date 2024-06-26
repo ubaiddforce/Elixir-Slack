@@ -9,7 +9,7 @@ defmodule Slack.Web.Client do
   @type body :: form_body() | multipart_form_body()
 
   @doc """
-  Returned value is passed directly to caller of generated Web API
+  Returned value is passed directly to caller of generated  Web  API
   module/functions. Can be any term.
   """
   @callback post!(url :: url, body :: body) :: term()
